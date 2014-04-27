@@ -12,10 +12,16 @@ MIT
 
 You simply use the following code snippet:
 
+
+```puppet
 include oraclejdk8
 oraclejdk8::install{oraclejdk8-local:}
+```
 
 
 If you do not want to install the default environment variables you can use the following code snippet:
+```puppet
 include oraclejdk8
 oraclejdk8::install{oraclejdk8-local:set_default_env=>false}
+```
+
