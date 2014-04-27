@@ -1,6 +1,8 @@
 # About #
 This module installs the Oracle JDK 8 on Debian or Ubuntu. Smoke tests are performed to verify that you can use this version.
 
+You can find it on Puppet Forge: https://forge.puppetlabs.com/zuinnote/oraclejdk8
+
 # Contact #
 
 Jörn Franke - ZuInnoTe (jornfranke@gmail.com)
