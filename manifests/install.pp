@@ -53,7 +53,7 @@ package { "oracle-java8-installer":
 	ensure => "installed" 
 }
 
-# execute smokte tests after the installation
+# execute smoke tests after the installation
 exec { "smoketest_java": 
 	command => "java -version 2>&1 | grep 1.8", 
 	path => "/bin:/usr/bin",
