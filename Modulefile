@@ -1,5 +1,5 @@
 name    'zuinnote-oraclejdk8'
-version '1.0.0'
+version '1.0.1'
 source  'https://github.com/ZuInnoTe/puppet-oraclejdk8'
 author  'ZuInnoTe (Jorn Franke)'
 license 'MIT'
