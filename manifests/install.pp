@@ -42,7 +42,7 @@ case $operatingsystem {
 		before => Package["oracle-java8-installer"]
       	 }
       }
-      ubuntu: { apt::ppa { ' ppa:webupd8team/java': before => Package["oracle-java8-installer"]} }
+      ubuntu: { apt::ppa { 'ppa:webupd8team/java': before => Package["oracle-java8-installer"]} }
       default: { fail("Installation only supported for Ubuntu or Debian") }
 }
 
